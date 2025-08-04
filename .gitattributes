@@ -1,0 +1,12 @@
+# Tell GitHub this is primarily a Kotlin project
+*.kt linguist-language=Kotlin
+*.kts linguist-language=Kotlin
+
+# Ignore shell scripts for language detection
+*.sh linguist-ignore=true
+
+# Mark other files appropriately
+*.xml linguist-language=XML
+*.gradle linguist-language=Gradle
+*.properties linguist-language=Properties
+*.md linguist-language=Markdown 
